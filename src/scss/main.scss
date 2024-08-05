@@ -1,0 +1,96 @@
+@import 'variable/variable';
+@import 'base/base';
+
+// component import
+
+@import 'component/component';
+@import 'component/typography';
+
+// layout import
+
+@import 'layout/navbar';
+
+// style
+
+.hero{
+    padding: 8rem .4rem;
+    background: radial-gradient($color-white, rgba(173, 216, 230, 0.2),rgba(219, 158, 244, 0.2), $color-white);
+
+    // btn
+
+    .heading{
+        .btn{
+            transition: .3s;
+            background: linear-gradient(90deg, $color-primary, $color-secondary);
+            font-size: 1.1rem;
+            margin-top: $spacing-sm;
+    
+            &:hover{
+                transform: scale(.98);
+                color: $color-black;
+                margin-top: $spacing-md;
+            }
+        }
+    }
+   
+
+    .content{
+        .card{
+            h5{
+                font-size: 1.1rem;
+            }
+            form{
+                .form-control{
+                    font-size: 1.75rem;
+                    border: 0;
+
+                    &:focus{
+                        border: 0;
+                        box-shadow: none;
+                        outline: none;
+                    }
+                }
+            }
+
+            .mic-icon{
+                font-size: 1.5rem;
+                background: linear-gradient(90deg, $color-primary, $color-secondary);
+                border-radius: 50%;
+                width: 4rem;
+                height: 4rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: $spacing-lg;
+                margin: $spacing-md auto;
+            }
+
+            // credit icon
+
+            .credit-icon{
+                .btn{
+                    font-size: 1rem;
+                    color: $color-white;
+                    background-color: $color-black;
+                    border: 0;
+                }
+            }
+
+            #card-number{
+                font-size: 2rem;
+            }
+
+            .action-btn{
+                .btn{
+                    font-size: 1.1rem;
+                    float: $font-weight-semibold;
+                    padding: $spacing-sm $spacing-md;
+
+                    span{
+                        font-size: .9rem;
+                    }
+                }
+            }
+        }
+    }
+}

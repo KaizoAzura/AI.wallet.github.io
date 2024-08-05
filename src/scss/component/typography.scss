@@ -1,0 +1,16 @@
+@import '\../variable/variable';
+@import '\../base/base';
+
+.title{
+    font-size: 3rem;
+    font-family: $font-family-alt;
+    font-weight: $font-weight-bold;
+    color: $color-black;
+}
+
+.text{
+    font-size: 1.1rem;
+    font-family: $font-family-base;
+    font-weight: $font-weight-normal;
+    color: $color-dark-gray;
+}

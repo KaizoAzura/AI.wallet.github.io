@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Wallet - smart money management with AI</title>
+
+    <!-- link CSS -->
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+
+    <!-- scss link -->
+    <link rel="stylesheet" href="src/css/main.css" />
+    <link rel="stylesheet" href="src/css/component.css" />
+    <link rel="stylesheet" href="src/css/navbar.css" />
+    <link rel="stylesheet" href="src/css/typography.css" />
+
+    <!-- link Icon -->
+    <!-- remixIcon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar section -->
+    <nav class="navbar navbar-expand-lg fixed-top px-lg-2 py-lg-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">AI. Wallet</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <i class="ri-side-bar-fill"></i>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div
+            class="offcanvas-body d-flex align-items-lg-center flex-column flex-lg-row"
+          >
+            <ul class="navbar-nav ms-lg-5">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+            </ul>
+
+            <div class="btn-navbar ms-lg-auto">
+              <a href="#" class="btn btn-link">Book a Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- hero section -->
+    <section class="hero">
+      <div class="container">
+        <div class="row">
+          <!-- First column: Text content with title, paragraph, and button -->
+          <div class="col-lg-6 heading text-center">
+            <h1 class="title">Smart money management with AI</h1>
+            <p class="text my-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              voluptatibus, doloremque necessitatibus odio sequi perferendis?
+            </p>
+            <a href="#" class="btn btn-link">Get Started</a>
+          </div>
+          <!-- Second column: Empty column, potentially for an image or other content -->
+          <div class="col-lg-6 content p-4 mt-4">
+            <div class="card text-center">
+              <h5 class="mb-2">Hey, Nicolas need help</h5>
+              <form id="input-form" class="prompt-box">
+                <!-- Text Input -->
+                <input
+                  type="text"
+                  id="prompt-input"
+                  class="form-control text-center"
+                  placeholder="Just ask me anything?"
+                />
+                <div id="mic-icon " class="mic-icon">
+                  <i class="ri-mic-2-fill"></i>
+                </div>
+              </form>
+            </div>
+            <!-- card credit -->
+            <div class="card mt-3">
+              <div
+                class="credit-icon d-flex align-items-center justify-content-between mb-5"
+              >
+                <img
+                  src="img/visa-logo.png"
+                  width="80"
+                  height="25"
+                  alt="Visa Logo"
+                />
+                <a href="#" class="btn">Set Limit</a>
+              </div>
+              <!-- card info -->
+              <p class="text">Primary account</p>
+              <h4 id="card-number">
+                <span class="hide">**** **** **** </span>3946
+              </h4>
+              <!-- action btn -->
+              <div
+                class="action-btn d-flex align-items-center flex-wrap mt-3 justify-content-around"
+              >
+                <a href="#" class="btn"
+                  ><i class="ri-arrow-right-up-line"></i
+                  ><span class="ms-2">Send</span></a
+                >
+                <a href="#" class="btn"
+                  ><i class="ri-arrow-left-down-line"></i
+                  ><span class="ms-2">Receive</span></a
+                >
+                <a href="#" class="btn"
+                  ><i class="ri-arrow-left-right-fill"></i
+                  ><span class="ms-2">Exchange</span></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end hero section -->
+
+    <!-- JS link -->
+
+    <!-- bootstrap JS -->
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS Vanilla -->
+    <script src="src/js/script.js"></script>
+  </body>
+</html>

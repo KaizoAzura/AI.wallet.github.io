@@ -1,0 +1,83 @@
+// Import Variables
+@import '\../variable/variable';
+
+// Reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px; // Base font size for rem calculations
+}
+
+body {
+    font-family: $font-family-base;
+    font-weight: $font-weight-normal;
+    color: $color-black;
+    background-color: $color-white;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-family-alt;
+    margin-bottom: $spacing-md;
+}
+
+p {
+    margin-bottom: $spacing-md;
+}
+
+// Utility Classes
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.mt-xs {
+    margin-top: $spacing-xs;
+}
+
+.mt-sm {
+    margin-top: $spacing-sm;
+}
+
+.mt-md {
+    margin-top: $spacing-md;
+}
+
+.mt-lg {
+    margin-top: $spacing-lg;
+}
+
+.mt-xl {
+    margin-top: $spacing-xl;
+}
+
+.mb-xs {
+    margin-bottom: $spacing-xs;
+}
+
+.mb-sm {
+    margin-bottom: $spacing-sm;
+}
+
+.mb-md {
+    margin-bottom: $spacing-md;
+}
+
+.mb-lg {
+    margin-bottom: $spacing-lg;
+}
+
+.mb-xl {
+    margin-bottom: $spacing-xl;
+}

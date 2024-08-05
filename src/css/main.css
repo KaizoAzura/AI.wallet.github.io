@@ -1,0 +1,566 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Trispace:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Trispace:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Trispace:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Trispace:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Trispace:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Trispace:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Trispace:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Trispace:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Trispace:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Trispace:wght@100..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Trispace", sans-serif;
+  margin-bottom: 16px;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.mt-xs {
+  margin-top: 4px;
+}
+
+.mt-sm {
+  margin-top: 8px;
+}
+
+.mt-md {
+  margin-top: 16px;
+}
+
+.mt-lg {
+  margin-top: 32px;
+}
+
+.mt-xl {
+  margin-top: 64px;
+}
+
+.mb-xs {
+  margin-bottom: 4px;
+}
+
+.mb-sm {
+  margin-bottom: 8px;
+}
+
+.mb-md {
+  margin-bottom: 16px;
+}
+
+.mb-lg {
+  margin-bottom: 32px;
+}
+
+.mb-xl {
+  margin-bottom: 64px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Trispace", sans-serif;
+  margin-bottom: 16px;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.mt-xs {
+  margin-top: 4px;
+}
+
+.mt-sm {
+  margin-top: 8px;
+}
+
+.mt-md {
+  margin-top: 16px;
+}
+
+.mt-lg {
+  margin-top: 32px;
+}
+
+.mt-xl {
+  margin-top: 64px;
+}
+
+.mb-xs {
+  margin-bottom: 4px;
+}
+
+.mb-sm {
+  margin-bottom: 8px;
+}
+
+.mb-md {
+  margin-bottom: 16px;
+}
+
+.mb-lg {
+  margin-bottom: 32px;
+}
+
+.mb-xl {
+  margin-bottom: 64px;
+}
+
+.btn {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #000000;
+  border: 1px solid #bdc3c7;
+  border-radius: 3rem;
+  padding: 8px 32px;
+  transition: 0.3s ease-in-out;
+}
+.btn:hover {
+  color: #ffffff;
+  background-color: #000000;
+  transition: 0.3s ease-in-out;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 1.25rem;
+  border: 0;
+  border-radius: 1.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Trispace", sans-serif;
+  margin-bottom: 16px;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.mt-xs {
+  margin-top: 4px;
+}
+
+.mt-sm {
+  margin-top: 8px;
+}
+
+.mt-md {
+  margin-top: 16px;
+}
+
+.mt-lg {
+  margin-top: 32px;
+}
+
+.mt-xl {
+  margin-top: 64px;
+}
+
+.mb-xs {
+  margin-bottom: 4px;
+}
+
+.mb-sm {
+  margin-bottom: 8px;
+}
+
+.mb-md {
+  margin-bottom: 16px;
+}
+
+.mb-lg {
+  margin-bottom: 32px;
+}
+
+.mb-xl {
+  margin-bottom: 64px;
+}
+
+.title {
+  font-size: 3rem;
+  font-family: "Trispace", sans-serif;
+  font-weight: 700;
+  color: #000000;
+}
+
+.text {
+  font-size: 1.1rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  color: #5a5a5a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Trispace", sans-serif;
+  margin-bottom: 16px;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.mt-xs {
+  margin-top: 4px;
+}
+
+.mt-sm {
+  margin-top: 8px;
+}
+
+.mt-md {
+  margin-top: 16px;
+}
+
+.mt-lg {
+  margin-top: 32px;
+}
+
+.mt-xl {
+  margin-top: 64px;
+}
+
+.mb-xs {
+  margin-bottom: 4px;
+}
+
+.mb-sm {
+  margin-bottom: 8px;
+}
+
+.mb-md {
+  margin-bottom: 16px;
+}
+
+.mb-lg {
+  margin-bottom: 32px;
+}
+
+.mb-xl {
+  margin-bottom: 64px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Trispace", sans-serif;
+  margin-bottom: 16px;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.mt-xs {
+  margin-top: 4px;
+}
+
+.mt-sm {
+  margin-top: 8px;
+}
+
+.mt-md {
+  margin-top: 16px;
+}
+
+.mt-lg {
+  margin-top: 32px;
+}
+
+.mt-xl {
+  margin-top: 64px;
+}
+
+.mb-xs {
+  margin-bottom: 4px;
+}
+
+.mb-sm {
+  margin-bottom: 8px;
+}
+
+.mb-md {
+  margin-bottom: 16px;
+}
+
+.mb-lg {
+  margin-bottom: 32px;
+}
+
+.mb-xl {
+  margin-bottom: 64px;
+}
+
+.btn {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #000000;
+  border: 1px solid #bdc3c7;
+  border-radius: 3rem;
+  padding: 8px 32px;
+  transition: 0.3s ease-in-out;
+}
+.btn:hover {
+  color: #ffffff;
+  background-color: #000000;
+  transition: 0.3s ease-in-out;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 1.25rem;
+  border: 0;
+  border-radius: 1.5rem;
+}
+
+.navbar {
+  background-color: transparent;
+  border-bottom: 1px solid transparent;
+}
+.navbar .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: "Trispace", sans-serif;
+}
+.navbar .navbar-toggler {
+  font-size: 1.5rem;
+  border: 0;
+  color: #000000;
+}
+.navbar .navbar-toggler:focus {
+  border: 0;
+  box-shadow: none;
+  outline: none;
+}
+.navbar .offcanvas .offcanvas-header .offcanvas-title {
+  font-size: 2rem;
+}
+.navbar .offcanvas .offcanvas-header button:focus {
+  border: 0;
+  outline: none;
+  box-shadow: none;
+}
+.navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+.navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link.active {
+  font-weight: 600;
+}
+.navbar .offcanvas .offcanvas-body .btn-navbar .btn-link {
+  margin-top: 8px;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .navbar .navbar-brand {
+    font-size: 1.75rem;
+  }
+  .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
+    margin: 0 8px;
+    font-size: 1.1rem;
+  }
+  .navbar .offcanvas .offcanvas-body .btn-navbar .btn-link {
+    font-size: 1.1rem;
+    margin-top: 0;
+  }
+}
+.hero {
+  padding: 8rem 0.4rem;
+  background: radial-gradient(#ffffff, rgba(173, 216, 230, 0.2), rgba(219, 158, 244, 0.2), #ffffff);
+}
+.hero .heading .btn {
+  transition: 0.3s;
+  background: linear-gradient(90deg, #add8e6, #db9ef4);
+  font-size: 1.1rem;
+  margin-top: 8px;
+}
+.hero .heading .btn:hover {
+  transform: scale(0.98);
+  color: #000000;
+  margin-top: 16px;
+}
+.hero .content .card h5 {
+  font-size: 1.1rem;
+}
+.hero .content .card form .form-control {
+  font-size: 1.75rem;
+  border: 0;
+}
+.hero .content .card form .form-control:focus {
+  border: 0;
+  box-shadow: none;
+  outline: none;
+}
+.hero .content .card .mic-icon {
+  font-size: 1.5rem;
+  background: linear-gradient(90deg, #add8e6, #db9ef4);
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  margin: 16px auto;
+}
+.hero .content .card .credit-icon .btn {
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #000000;
+  border: 0;
+}
+.hero .content .card #card-number {
+  font-size: 2rem;
+}
+.hero .content .card .action-btn .btn {
+  font-size: 1.1rem;
+  float: 600;
+  padding: 8px 16px;
+}
+.hero .content .card .action-btn .btn span {
+  font-size: 0.9rem;
+}/*# sourceMappingURL=main.css.map */

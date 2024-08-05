@@ -1,0 +1,109 @@
+@import '\../variable/variable';
+@import '\../base/base';
+
+// component
+
+@import '\../component/component';
+
+// navbar style
+
+.navbar{
+    background-color: transparent;
+    border-bottom: 1px solid transparent;
+
+    .navbar-brand{
+        font-size: 1.5rem;
+        font-weight: $font-weight-bold;
+        font-family: $font-family-alt;
+    }
+
+    .navbar-toggler{
+        font-size: 1.5rem;
+        border: 0;
+        color: $color-black;
+
+        &:focus{
+            border: 0;
+            box-shadow: none;
+            outline: none;
+        }
+    }
+
+    .offcanvas{
+        .offcanvas-header{
+            .offcanvas-title{
+                font-size: 2rem;
+            }
+
+            button{
+                &:focus{
+                    border: 0;
+                    outline: none;
+                    box-shadow: none;
+                }
+            }
+        }
+
+        // offcanvas body
+
+        .offcanvas-body{
+            .navbar-nav{
+                .nav-item{
+                    .nav-link{
+                        font-size: 1.5rem;
+                        margin-bottom: $spacing-sm;
+
+                        &.active{
+                            font-weight: $font-weight-semibold;
+                        }
+                    }
+                }
+            }
+
+            // btn-navbar
+
+            .btn-navbar{
+                .btn-link{
+                    margin-top: $spacing-sm;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+// responsive Breakpoint
+
+// Display Large 992px
+@include respond-to('lg'){
+    // navbar section
+
+    .navbar{
+        // navbar brand
+        .navbar-brand{
+            font-size: 1.75rem;
+        }
+
+        .offcanvas{
+            .offcanvas-body{
+                .navbar-nav{
+                    .nav-item{
+                        .nav-link{
+                            margin: 0 $spacing-sm;
+                            font-size: 1.1rem;
+                        }
+                    }
+                }
+
+                // button navbar
+
+                .btn-navbar{
+                    .btn-link{
+                        font-size: 1.1rem;
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+// Font Import
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Trispace:wght@100..800&display=swap');
+
+// Font Families
+$font-family-base: 'Space Grotesk', sans-serif;
+$font-family-alt: 'Trispace', sans-serif;
+
+// Font Weights
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// Colors
+$color-primary: #add8e6;
+$color-secondary: #db9ef4;
+$color-white: #ffffff;
+$color-black: #000000;
+$color-gray: #bdc3c7;
+$color-dark-gray: #5a5a5a;
+
+// Spacing
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 32px;
+$spacing-xl: 64px;
+
+// Breakpoints
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1400px;
+
+// Mixin for Breakpoints
+@mixin respond-to($breakpoint) {
+    @if $breakpoint == sm {
+        @media (min-width: $breakpoint-sm) { @content; }
+    } @else if $breakpoint == md {
+        @media (min-width: $breakpoint-md) { @content; }
+    } @else if $breakpoint == lg {
+        @media (min-width: $breakpoint-lg) { @content; }
+    } @else if $breakpoint == xl {
+        @media (min-width: $breakpoint-xl) { @content; }
+    } @else if $breakpoint == xxl {
+        @media (min-width: $breakpoint-xxl) { @content; }
+    }
+}
